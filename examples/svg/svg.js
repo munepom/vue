@@ -86,7 +86,8 @@ new Vue({
       }
     },
     $_genId_: function () {
-      return this.nextId++
+      this.nextId++
+      return this.nextId
     }
   }
 })
